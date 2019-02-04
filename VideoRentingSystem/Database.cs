@@ -28,7 +28,7 @@ namespace VideoRentingSystem
             path = Path.Combine(path, file);
             if (File.Exists(path))
             {
-                connstr = string.Format(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename={0};Integrated Security=True", path);
+                connstr = string.Format(@"Data Source=DESKTOP-17CKR5l;Initial Catalog=Ap;Integrated Security=True", path);
             }
             else
             {
